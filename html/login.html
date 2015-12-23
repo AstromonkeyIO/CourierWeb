@@ -1,0 +1,117 @@
+
+<html>
+    
+    <head>
+        <title>Navers Login</title>
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+            <!-- Optional theme -->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
+                <link rel="stylesheet" type="text/css" href="/css/login.css">
+                    <!-- Latest compiled and minified JavaScript -->
+                    <script src="//www.parsecdn.com/js/parse-1.6.7.min.js"></script>
+                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+                    <!--<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>-->
+                    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous">
+                        </script>
+                    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+                    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0rc1/angular-route.min.js"></script>
+                    <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+                        <link href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css" rel="stylesheet" media="screen">
+                        <script type="text/javascript" src="/js/login.js"></script>
+                        </head>
+                        
+                        <div ng-controller="facebookLoginController">
+                        <!--Video Section-->
+                        <section class="content-section video-section" style="top:0px;">
+                        <div class="pattern-overlay">
+                        <a id="bgndVideo" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=M3x7PXPmZ6c',containment:'.video-section', quality:'large', autoPlay:true, mute:true, opacity:1}">bg</a>
+                        <div class="container">
+                        <div class="row">
+                        <div class="col-lg-12">
+                        <h1>Welcome To Courier</h1>
+                        <h3>Find People Who Can Ship Your Stuff Internationally!</h3>
+                        <form class="form-signin" id='login_form'>
+                        <div class='facebookLogin'>
+                        <button type='button'class="btn btn-lg btn-primary btn-block btn-facebook" ng-click="loginWithFacebookButtonClicked()"><i class="fa fa-facebook fa-fw"></i> Log In with Facebook</button>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        </span>
+                        </div>
+                        </div>
+                        </form>
+                        </div>
+                        </div>
+                        </div>
+                        </section>
+                        <!--Video Section Ends Here-->
+                        <div class="container">
+                        <div class="row">
+                        <table cellspacing="0" style="width:100%;background:#fff;">
+                        <tbody><tr>
+                        <td style="padding:0 5px;">
+                        
+                        <table cellspacing="0" style="width:990px;margin:0 auto;">
+                        <tbody>
+                        <!--<td style="vertical-align:top;background:url(//www.adfiver.com/images/index-options.jpg) center 30px no-repeat;">-->
+                        <table cellspacing="0" style="width:990px;margin:22px auto 50px;font:13px/17px 'OpenSansRegular','Helvetica Neue',Helvetica,Arial,sans-serif;color:#7d7d7d;">
+                        <tbody><tr>
+                        <tr>
+                        <td style="text-align:left;padding:20px 10px 20px;">
+                        <div style="background:#758d94;padding:12px 10px;color:#fff;border-radius:5px;font:18px/20px 'OpenSansBold',Helvetica,Arial,sans-serif;text-align:center;cursor:pointer;" onclick="window.open('/register.php','_self');">1. Need to Ship Something Abroad?</div>
+                        </td>
+                        <td></td>
+                        <td style="text-align:left;padding:20px 10px 20px;">
+                        <div style="background:#2facb2;padding:10px;color:#fff;border-radius:5px;font:18px/20px 'OpenSansBold',Helvetica,Arial,sans-serif;text-align:center;cursor:pointer;" onclick="window.open('/login.php','_self');">2. Find Someone Who Can Ship Your Package</div>
+                        </td>
+                        <td></td>
+                        <td style="text-align:left;padding:20px 10px 20px;">
+                        <div style="background:#2dbe60;padding:10px;color:#fff;border-radius:5px;font:18px/20px 'OpenSansBold',Helvetica,Arial,sans-serif;text-align:center;cursor:pointer;" onclick="window.open('/register.php','_self');">3. Connect, Ship, and Pay Seamlessly</div>
+                        </td>
+                        </tr>
+                        <tr>
+                        <td width="250" style="text-align:left;padding:17px 10px 20px;border-top:1px solid #E1E1E1; border-bottom:1px solid #E1E1E1;">
+                        <div style="color:#555;">Do you need to ship something internationally? But the shipping price is too high and the process is so annoying. Courier is here to help you!</div>
+                        <div style="color: #758d94;padding-top:10px;">Registration is absolutely free and open worldwide.</div>
+                        </td>
+                        <td width="85"></td>
+                        <td style="text-align:left;padding:17px 10px 20px;border-top:1px solid #E1E1E1; border-bottom:1px solid #E1E1E1;">
+                        <div style="color:#555;">Courier lets you find travelers around you who are going near your shipping destination! You can browse through differetn travelers, read reviews about them, and find the perfect one who can deliver your package!</div>
+                        <div style="color:#2facb2;padding-top:10px;">Create an account to see potential couriers!</div>
+                        </td>
+                        <td width="85"></td>
+                        <td width="250" style="text-align:left;padding:17px 10px 20px;border-top:1px solid #E1E1E1; border-bottom:1px solid #E1E1E1;">
+                        <div style="color:#555;">
+                        Easily message and connect with your potential courier who will come to pick up your package and deliver it to your destination at less than half the price of major shipping companies!</div>
+                        <div style="color: #2dbe60;padding-top:10px;">So what are you waiting for? Start shipping!</div>
+                        </td>
+                        </tr>
+                        </tbody></table>
+                        </td></tr>
+                        </tbody></table>
+                        
+                        </td>
+                        </tr>
+                        </tbody></table>
+                        </div>
+                        </div>
+                        <!--footer-->
+                        <div class="container">
+                        <hr>
+                        <div class="text-center center-block">
+                        <h3>Check Us Out!</h3>
+                        <br />
+                        <a href="https://www.facebook.com/bootsnipp"><i id="social" class="fa fa-facebook-square fa-3x social-fb"></i></a>
+                        <a href="https://twitter.com/bootsnipp"><i id="social" class="fa fa-twitter-square fa-3x social-tw"></i></a>
+                        <a href="https://plus.google.com/+Bootsnipp-page"><i id="social" class="fa fa-google-plus-square fa-3x social-gp"></i></a>
+                        <a href="mailto:bootsnipp@gmail.com"><i id="social" class="fa fa-envelope-square fa-3x social-em"></i></a>
+                        
+                        </div>
+                        <!---->
+                        <!--</body>-->
+                        </div>
+                        
+                        <div data-ng-controller="facebookLoginController" data-ng-init="init()"></div>
+</html>

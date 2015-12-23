@@ -1,0 +1,30 @@
+<html>
+	<head>
+	<link rel="stylesheet" type="text/css" href="/css/home.css">
+	</head>
+	<body>
+		<div style="width: 450px; height: 300px; text-align:center;">
+		 <ul style="list-style-type: none; max-width: 400px; max-height: 300px; white-space:nowrap; overflow-y: scroll;">
+		    <li ng-repeat="courier in couriers" style="height:290px;">
+				<div class="profile-sidebar">
+					<div class="profile-userpic-other">
+						<img id="profile-image" src="https://scontent.xx.fbcdn.net/hprofile-xfp1/v/t1.0-1/c33.0.200.200/p200x200/1919122_1142741789342_7118268_n.jpg?oh=7a856de2b3098e1b3e0671fe693ebec3&oe=56FAED32" class="img-responsive" alt="" style="width:40% height: 40%;">
+					</div>
+					<div class="profile-usertitle">
+						<a id="profile-name" class="profile-usertitle-name">
+							{{courier.name}}
+						</a>
+						<div class="profile-usertitle-job">
+							Arrives 5 miles from destination
+						</div>
+					</div>
+					<div class="profile-userbuttons">
+						<button type="button" class="btn btn-success btn-sm">Score: 5</button>
+						<button type="button" class="btn btn-danger btn-sm">Message</button>
+					</div>
+				</div>
+			 </li>
+		  </ul>
+		</div>
+	</body>
+</html>
